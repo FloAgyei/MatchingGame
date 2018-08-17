@@ -1,0 +1,76 @@
+
+.container {
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto auto;
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+    height: 350px;
+  	width: 350px;
+ 	margin: 10px auto;
+  	position: relative;
+}
+
+.card {
+	height: 100px;
+	width: 100px;
+	margin:auto;
+	background-color:#9deef2;
+	font-size: 0px;
+	color: black;
+	border-radius: 5px;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height:150px;
+	
+
+}
+
+.button{
+	background-color:pink;
+	/*height:100px;*/
+	/*width:100x;*/
+	font-size:46px;
+	text-align:center;
+	grid-column: span 3;
+	font-family:'Press Start 2P', cursive;
+}
+
+.hidden{
+	opacity:0;
+	
+}
+
+h1{
+	text-align: center;
+	font-family: 'Monoton', cursive;
+	color:#8B008B;
+}
+
+body {
+	background-image: url("flower.jpg");
+	height:100%;s
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button3:hover{
+	height:50px;
+	grid-row:span 3;
+	text-align:center;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 12px;
+	background-color:#90EE90;
+    transition-duration: 0.4s;
+}
+
+.button2 {
+	font-family: 'Stalinist One', cursive;
+	font-weight:bold;
+	font-size:11px;
+}
